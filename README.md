@@ -74,6 +74,22 @@ python3 instaOSINT.py
 | ShowFollwrs |    ✔️   |
 | ShowFollwng |    ✔️   |
 
+If you are facing this issue :- error : ecternally-managed-environment 
+
+Use these :- Commands:
+
+    python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip install --upgrade pip setuptools wheel
+
+pip install -r requirements.txt
+
+python instaOSINT.py
+
+If python3-venv isn’t present, install it once: sudo apt update && sudo apt install python3-venv. Then repeat the steps above.
+
 
 <details>
 <summary>:zap: Author :</summary>
